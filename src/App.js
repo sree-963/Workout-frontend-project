@@ -1,7 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
 
-function App() {
+const App = () => {
+  const [workouts,setWorkouts]=useState(null)
+  
   return (
     <div className="App">
       <header className="App-header">
